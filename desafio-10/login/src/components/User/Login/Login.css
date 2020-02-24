@@ -29,34 +29,16 @@
   padding: 5px 10px;
 }
 
-.user-login__forget-password {
-  text-align: right;
-  margin-bottom: 40px;
-}
-
-.user-login__forget-password a {
-  font-weight: 600;
-  color: #515151;
+.user-login__form-control input:focus {
+  outline: 0;
+  border-color: #5988df;
 }
 
 .user-login__submit-button {
   width: 100%;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-
-.user-login__create-account {
-  text-align: center;
-  color: #979797;
-}
-
-.user-login__create-account a {
-  color: #515151;
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-
-.user-login__wrapper {
-
+.user-login__error {
+  color: red;
 }
